@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Software Lab - Free Resources for Students</title>
+  <title>Document Printing - Easy and Affordable</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="styles.css" rel="stylesheet">
 </head>
@@ -28,15 +28,11 @@
   <!-- Assignment Submission Form -->
   <section class="form-section py-5">
     <div class="container">
-      <h2 class="text-center mb-4">Submit Your Project for Printing  Here</h2>
+      <h2 class="text-center mb-4">Submit Your Document for Printing</h2>
       <form action="submit.php" method="POST" enctype="multipart/form-data">
         <div class="mb-3">
           <label for="studentName" class="form-label">Name</label>
           <input type="text" class="form-control" id="studentName" name="studentName" required>
-        </div>
-        <div class="mb-3">
-          <label for="regNumber" class="form-label"> Number of copies</label>
-          <input type="text" class="form-control" id="regNumber" name="regNumber" required>
         </div>
         <div class="mb-3">
           <label for="fileUpload" class="form-label">Upload Document</label>
